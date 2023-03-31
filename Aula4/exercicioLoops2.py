@@ -2,14 +2,9 @@
 # se não for, ler este valor até que a mesma seja válida
 
 nota = float(input("Digite sua nota: "))
-i = 0
 
-while i < 10:
-    if nota < 7:
-        print(f'nota inválida {nota}')
-        nota += 1
-        i += 1
-    else:
-        print(f'nota valida {nota}')
-        i += 11
+while nota <= 7:
+    nota =  float(input("Nota inválida, a nota precisa ser maior que 7 para ser aceita. Insira sua nota: "))
+    
+print(f'A nota do aluno é {nota:.2f}')
     
