@@ -24,7 +24,7 @@ while condicao:
         input2 = randint(0, 2)
     elif modalidade == 3:
         print((' -'*20), '\n Computador \n', ('- '*20),  f'\n  Escolha do Computador')
-        input2 = randint(0, 2)
+        input1 = randint(0, 2)
         print((' -'*20), '\n Computador \n', ('- '*20),  f'\n  Escolha do Computador')
         input2 = randint(0, 2) 
     if input1 == input2:
