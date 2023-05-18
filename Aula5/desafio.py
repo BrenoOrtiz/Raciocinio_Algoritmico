@@ -14,8 +14,3 @@ for i in range(6):
 
 print(f'Você acertou {numerosAcertados}')
 print(f'Os numeros sorteados foram {numerosSorteio}')
-
-
-        
-
-    
